@@ -137,7 +137,7 @@ table {
 /*  */
 /* Start of code */
 /*  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,800;1,100&display=swap');
 
 body {
     height: 100%;
@@ -252,7 +252,7 @@ body {
     padding: 40px;
 }
 .middle-section-1 {
-    padding: 30px 20% 10px;
+    padding: 100px 20% 90px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -287,16 +287,38 @@ body {
     color: #4B5563;
     font-weight: 100;
 }
-
+/* MIDDLE SECTION 2 */
 .middle-section-2 {
     padding: 10px 20%;
     background-color: #e5e7eb;
     display: flex;
     width: 100wh;
     flex: 1 0 auto;
-
+    justify-content: center;
+    align-items: center;
+}
+.paragraph {
+    display: flex;
+    padding: 140px 70px;
+    flex-direction: column;
+    color: #1F2937;
+    gap: 20px;
 }
 
+.paragraph p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.5;
+    
+}
+.paragraph sub {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+/* LOWER SECTION */
 .lower-section {
     padding: 10px 20%;
     background-color: whitesmoke;
